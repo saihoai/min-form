@@ -1,0 +1,5 @@
+- box: 120
+- tab active: 38x27
+- border-tab: 120x4
+- input: 45px
+- button: 45px

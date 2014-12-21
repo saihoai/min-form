@@ -1,0 +1,72 @@
+@import url('myriad-pro/style.css');
+@import url('font-awesome.min.css');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #2d2d2d;
+  font: 12pt Myriad Pro Bold;
+}
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+.wrapper {
+  background: url("../img/bg.png") no-repeat scroll center center transparent;
+  position: relative;
+}
+.wrapper .box {
+  bottom: 0;
+  height: 167px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 120px;
+}
+.wrapper .box .nav {
+  background: none repeat scroll 0 0 #363b40;
+  color: #fff;
+  height: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.wrapper .box .nav i {
+  background: none repeat scroll 0 0 #f26a4d;
+  float: right;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  width: 38px;
+}
+.wrapper .box .frm {
+  border-top: 4px solid #f26a4d;
+}
+.wrapper .box .frm input {
+  border-color: transparent transparent #2d2d2d;
+  border-style: solid;
+  border-width: 0 0 1px;
+  color: #2d2d2d;
+  display: block;
+  font: 12pt Myriad Pro Bold;
+  height: 45px;
+  text-align: center;
+  width: 100%;
+}
+.wrapper .box .frm .input.last {
+  border-bottom-width: 0;
+}
+.wrapper .box .frm [type="submit"] {
+  background: none repeat scroll 0 0 #f26c4f;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  font: 12pt Myriad Pro Bold;
+  height: 45px;
+  text-transform: uppercase;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,5 @@
+- tab: #363b40
+- tab active: #f26a4d
+- btn: #f26c4f
+- text: #2d2b2d
+- input-border-bottom: #2d2d2d
